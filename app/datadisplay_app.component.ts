@@ -1,11 +1,11 @@
 import {Component, View} from "angular2/core";
 
 @Component({
-   selector: 'my-app'
+    selector: 'my-app'
 })
 
 @View({
-  template: `
+    template: `
     <h2>Showing data using component properties with interpolation</h2>
     <h3>Player Name:{{player}}</h3>
     <h3>He is famous in: {{sport}}</h3><br>
@@ -25,14 +25,14 @@ import {Component, View} from "angular2/core";
 })
 
 export class MyTemplate {
-   player: 'M.S. Dhoni ';
-   sport:'Cricket';
+    player: 'M.S. Dhoni ';
+    sport: 'Cricket';
 
-capital: string;
-constructor() {
-   this.capital = 'New Delhi';
-}
+    capital: string;
+    constructor() {
+        this.capital = 'New Delhi';
+    }
 
-fruits = ['Apple', 'Orange', 'Mango', 'Grapes'];
-   myfruit = this.fruits[1];
+    fruits = ['Apple', 'Orange', 'Mango', 'Grapes'];
+    myfruit = this.fruits[1];
 }

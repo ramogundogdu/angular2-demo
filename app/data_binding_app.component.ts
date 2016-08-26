@@ -14,14 +14,14 @@ import {Component} from 'angular2/core';
    `
 })
 export class AppComponent {
-     public Items = [
-                     {name: "Butter"},
-                     {name: "Milk"},
-                     {name: "Yogurt"},
-                     {name: "Cheese"},
-                  ];
-     public clickedItem = {name: ""};
-     onItemClicked(Item) {
+    public Items = [
+        { name: "Butter" },
+        { name: "Milk" },
+        { name: "Yogurt" },
+        { name: "Cheese" },
+    ];
+    public clickedItem = { name: "" };
+    onItemClicked(Item) {
         this.clickedItem = Item;
-     }
+    }
 }

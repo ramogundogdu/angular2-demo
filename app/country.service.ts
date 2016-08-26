@@ -7,7 +7,7 @@ import {COUNTRIES} from "./country.contacts";
 
 //CountryService exposes the getContacts() method that returns the data
 export class CountryService {
-   getContacts() {
-      return Promise.resolve(COUNTRIES); // takes values from country.contacts typescript file
-   }
+    getContacts() {
+        return Promise.resolve(COUNTRIES); // takes values from country.contacts typescript file
+    }
 }

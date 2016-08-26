@@ -37,7 +37,7 @@ System.register(["angular2/core", "./fruits.service"], function(exports_1, conte
                 MyListComponent = __decorate([
                     core_1.Component({
                         selector: "my-list",
-                        template: " List of Fruits<br>\n   <ul>\n      <li *ngFor=\"#list of fruits\">  //The NgFor directive instantiates a template once per item from an iterable\n         {{list.id}} - {{ list.name }}\n      </li>\n   </ul>\n   ",
+                        template: " List of Fruits<br>\n   <ul>\n      <li *ngFor=\"#list of fruits\">  <!--The NgFor directive instantiates a template once per item from an iterable -->\n         {{list.id}} - {{ list.name }}\n      </li>\n   </ul>\n   ",
                         providers: [fruits_service_1.FruitService] //providers are part of @Component metadata
                     }), 
                     __metadata('design:paramtypes', [fruits_service_1.FruitService])

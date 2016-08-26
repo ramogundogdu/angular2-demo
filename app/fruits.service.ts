@@ -6,7 +6,7 @@ import {COUNTRIES} from "./fruits.lists";
 
 //'FruitService' exposes 'getContacts()' method that returns list of data
 export class FruitService {
-   getContacts() {
-      return Promise.resolve(COUNTRIES); // takes values from fruits.lists.ts file
-   }
+    getContacts() {
+        return Promise.resolve(COUNTRIES); // takes values from fruits.lists.ts file
+    }
 }
